@@ -59,7 +59,7 @@ class Contenedor {
       if (listaDeProducto === '') {
       } else { const elementoEncontrado = listaDeProducto.filter(elemento => elemento.id !== id);
         const productosString = JSON.stringify(elementoEncontrado, null, 2);
-        await fs.promises.writeFile(`./${this.file}`, productosString);
+        await fs.promises.writeFile(`./${this.file}`, JSON.stringify(productosString));
       }
     }catch (error) {
       console.error('Error:', error);
