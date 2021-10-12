@@ -1,16 +1,9 @@
 [
   {
     "articulo": "Cartuchera",
-    "color": "Roja",
+    "color": "Verde",
     "precio": "824.99",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_788665-MLA47388123931_092021-V.jpg",
-    "id": 1
-  },
-  {
-    "articulo": "Pincel",
-    "color": "Negro",
-    "precio": "300.00",
-    "imagen": "http://www.distribuidoranderson.com/1280-thickbox_default/pincel-negro-de-cerda-n24.jpg",
     "id": 2
   },
   {
@@ -33,5 +26,12 @@
     "precio": "250",
     "imagen": "https://inkgenio.com.ar/4512-large_default/marcador-filgo-permanente-060-negro-bisel.jpg",
     "id": 5
+  },
+  {
+    "articulo": "Escuadra",
+    "color": "Negra",
+    "precio": "125.50",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_740478-MLA43428337524_092020-O.webp",
+    "id": 6
   }
 ]
